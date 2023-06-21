@@ -29,14 +29,16 @@ function TodoForm(props) {
     <form className="todo-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Add a todo"
+        placeholder="Agrega una actividad"
         value={input}
         name="text"
         className="todo-input"
         onChange={handleChange}
         ref={inputRef}
       />
-      <button classname="todo-button">Add todo</button>
+      <button onClick={handleSubmit} className="todo-button">
+        Agregar
+      </button>
     </form>
   );
 }
