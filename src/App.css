@@ -18,7 +18,7 @@ body {
   background: #161a2b;
   text-align: center;
   margin: 128px auto;
-  border-radius: 10px;
+  border-radius: 20px;
   padding-bottom: 32px;
 }
 
@@ -64,6 +64,14 @@ h1 {
   );
   color: #fff;
   text-transform: capitalize;
+}
+
+.todo-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 0.9) 0%,
+    rgba(155, 0, 250, 0.9) 100%
+  );
 }
 
 .todo-input.edit {
